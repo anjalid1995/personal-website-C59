@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+    margin-top: 50px;
+
+}
+
+#name {
+    font-size: 70px;
+    color: green;
+
+}
+
+#intro {
+    background: linear-gradient(#03f8fc 15%, #00ff6e 100%);
+    z-index: 9;
+    height: 700px;
+}
+
+.line {
+    width: 80px;
+    height: 5px;
+    background-color: orange;
+    margin: 8px auto;
+}
+
+#hi,
+#paragrph {
+    font-family: monospace
+}
+
+#bio {
+    padding: 80px;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+
+}
+
+.links {
+    float: left;
+    color: blue;
+    font-size: 20px;
+    padding-left: 9px;
+    padding-right: 9px;
+
+}
+
+.links:hover {
+
+    text-decoration-line: underline;
+
+}
+
+#vids {
+    display: block;
+    margin:auto;
+    margin-left: 0%;  
+}
+
+#v,
+#v1 {
+    /* margin-left: 00px; */
+}
